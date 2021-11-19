@@ -4,7 +4,7 @@ session_start();
 require_once("./config/index.php");
 require_once("./utils/index.php");
 
-$key = "sk_test_a77bf653eedac0d68e5b1e05710aef74cceefc9c";
+$key = "ADD_YOUR_SECRET_KEY";
 
 if(isset($_SESSION['USER'])): 
     $USERID = $_SESSION['USER'];
